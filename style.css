@@ -1,0 +1,117 @@
+/* STYLE SECTIONING TAGS */
+body {
+    background-color: #fcfcfc;
+   }
+   *{
+     margin:0px;
+     padding:0px;
+   }
+   main {
+     margin-top:0;
+     margin-bottom:0;
+     margin-right:5%;
+     margin-left:5%;
+   }
+   .second {
+     background-color: #193551;
+     padding: 3rem 5%;
+     margin-right:-10rem;
+     margin-left:-10rem;
+   }
+     .second-image {
+     display: flex;
+     flex-wrap: wrap;  
+     gap: 1rem;        
+     justify-content: center;
+   }
+   /* STYLE TEXT */
+   
+   h1 {
+     color: #193551;
+     font-family: "Arial";
+     font-size:4rem;
+   }
+   p {
+     color:#5c8180;
+     font-family: "Arial";
+     font-size:20px;
+   }
+   .intro {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 2rem auto;
+   }
+   .intro-text {
+     flex: 1 1 300px;
+   }
+   .project {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 2rem auto;
+     background-color: #193551;
+   }
+   .project-text {
+     flex: 1 1 300px;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 2rem auto;
+     background-color: #193551;
+     padding: 1rem;
+     text-align: center;
+   }
+   .project h1 {
+     color:#fcfcfc;   
+   }
+   .project p {
+     color:#edacb1;
+   }
+   .second h1 {
+     color:#fcfcfc;
+     text-align:center;
+   }
+   figcaption {
+     color:#fcfcfc;
+     font-family: "Arial";
+     font-size:20px;
+   }
+   figure {
+     text-align: center;
+   }
+   .center {
+     text-align:center;
+     margin:5%;
+   }
+   /* STYLE IMAGES */
+   img {                   
+     border-radius: 8px;
+     border: 5px solid #ced78d;
+     margin:2rem;
+   }
+   .second figure{
+     margin: 0;
+     text-align: center;       
+   }
+   /* STYLE NAV BAR */
+   ul {
+     list-style-type:none;
+     background-color:#edacb1;
+     overflow:hidden;
+     padding: 1em;
+   }
+   li {
+     display: inline;
+   }
+   li a {
+     text-decoration:none;
+     color:#5c8180;
+     font-size:1.3em;
+     padding:1em;
+     font-family: "Arial";
+   }
+   li a:hover {
+     background-color:#fcfcfc;
+     color:#193551;
+   }
